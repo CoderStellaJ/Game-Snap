@@ -1,2 +1,2 @@
-# Game-Snap-
+# Game-Snap
 poker game snap
