@@ -7,12 +7,12 @@ from snap import *
     # condition 2: suit match
     # condition 3: both value and suit match
 '''
-game = Snap_game(1, 2)
+game = Snap_game(num_deck=1, condition=2)
 
 '''
 parameter: number of simulations to run
 :return: score of a player: number of snaps the player wins in a round
         winning round of a player: number of simulations a player win
 '''
-game.simulate(2)
+game.simulate(num_games=2)
 
